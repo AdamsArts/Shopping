@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background: linear-gradient(to right, 
+        rgb(190,185,242) 0%, 
+        rgb(197,180,217) 29%, 
+        rgb(199,187,219) 65%, 
+        rgb(211,190,216) 100%
+         );
+        }
+         /* Mobile styles */
+         @media only screen and (max-width: 600px) {
+            .logo {
+                width: 100px; /* Set the mobile size */
+                height: auto; /* Maintain aspect ratio */
+            }
+            #logocontainer{
+                margin-top: 18px;
+                height: 40px;
+                border-radius: 14px;
+                overflow: hidden;
+            }
+            #name{
+                margin-top: 4px;
+                height: 49px;
+                width: 80%;
+                
+            }
+
+
+
+
+
+        }
+
+        /* Laptop/Desktop styles */
+        @media only screen and (min-width: 601px) {
+            .logo {
+                width: 200px; /* Set the laptop size */
+                height: auto; /* Maintain aspect ratio */
+            }
+            #logocontainer{
+                margin-top: 16px;
+                height: 80px;
+                border-radius: 20px;
+            }
+        }
+    </style>
+</head>
+<body style="background-color: antiquewhite;">
+    <div>
+        <nav class="navbar bg-body-tertiary" style="padding: 0%;" >
+            <div class="container-fluid" id="logocontainer" style="background-color: rgb(296,244,266);">
+                <div><img id="name" src="./Names/generatedtext (1).png" alt=""></div>    
+            </div>
+        
+        </nav>
+    </div>
+
+
+</body>
+</html>
